@@ -14,10 +14,28 @@ The goal of this project is the use Infrastructure-as-Code to do the following:
 ## Application
 
 - I'll be using Terraform to define and provision the infrastructure. Terraform is an open-source infrastructure as code software tool created by HashiCorp.
-- I'll be using Terraform on my mac. To install and initialized Terraform, you need to do the following:
+- I'll be using Terraform on my mac. To install Terraform, you need to do the following:
 
 ```
 brew install terraform
-terraform init
+```
 
+- Once Terraform is installed, you can create a .tf file that will have your HCL configuration. Then initialize it with this command:
+
+```
+terraform init
+```
+
+For this project, I created a main.tf file.
+
+## Script
+
+- Connect to AWS, add the AWS provider on your script.
+
+```HCL
+provider "aws" {
+  region = "us-west-1"
+  access_key = "<Insert AWS access key here>"
+  secret_key = "<Insert AWS secret key here>"
+}
 ```
