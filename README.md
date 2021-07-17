@@ -199,3 +199,7 @@ resource "aws_instance" "demoInstance" {
   }
 }
 ```
+
+## Running the Script
+
+- To execute the script, you do a terraform apply
