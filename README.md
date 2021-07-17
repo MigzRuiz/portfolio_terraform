@@ -203,7 +203,11 @@ resource "aws_instance" "demoInstance" {
 ## Running the Script
 
 - To execute the script, you do a terraform apply
-![Screen Shot 2021-07-17 at 3 09 05 PM](https://user-images.githubusercontent.com/7464927/126050319-9382c507-8677-470d-9ef4-a9760c41f94a.png)
+  ![Screen Shot 2021-07-17 at 3 09 05 PM](https://user-images.githubusercontent.com/7464927/126050319-9382c507-8677-470d-9ef4-a9760c41f94a.png)
 
 - Login to your AWS Console to confirm the resources has been created.
-![image](https://user-images.githubusercontent.com/7464927/126050336-3748a14e-5496-4a61-90e5-494e55fbc9d0.png)
+  ![image](https://user-images.githubusercontent.com/7464927/126050336-3748a14e-5496-4a61-90e5-494e55fbc9d0.png)
+
+## Conclusion
+
+- In conclusion, Terraform is really easy to use and since it's open-source, it's a good tool to learn as it can be universally used in any cloud platform.
